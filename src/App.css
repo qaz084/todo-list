@@ -1,0 +1,46 @@
+#root {
+ 
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+.app-container{
+
+
+  width: 50%;
+  margin:auto;
+  min-width: 50%;
+
+}
+
+@media (min-width: 375px){
+
+  .app-container{
+
+    width: 90%;
+    margin:auto;
+  
+  }
+  
+}
+@media (min-width: 640px){
+
+  .app-container{
+
+    width: 70%;
+    margin:auto;
+  
+  }
+  
+}
+@media (min-width: 1080px){
+
+  .app-container{
+
+    width: 50%;
+    margin:auto;
+  
+  }
+  
+}
